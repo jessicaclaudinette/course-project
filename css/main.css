@@ -162,3 +162,20 @@ p {
     overflow: hidden;
 }
 /* ===== End Portfolio===== */
+
+/*==== Begin subscribe ====*/
+#subscription {
+  background-color: #fca76c;
+  color: black;
+  padding: 60px;
+}
+
+/*==== End subscribe ====*/
+
+/*==== Begin hr divider ====*/
+hr {
+  max-width: 1060px;
+  border-width: 5px;
+  border-color: #b4dfe5;
+}
+/*==== End hr divider ====*/
