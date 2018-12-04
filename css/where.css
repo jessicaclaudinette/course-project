@@ -22,3 +22,44 @@ background-color: #fff;
   color: #fca76c;
 }
 /*==== End jumbotron ====*/
+hr {
+  max-width: 1060px;
+  border-width: 5px;
+  border-color: #b4dfe5;
+}
+.row {
+  padding: 60px;
+  margin-left: 40px;
+}
+#text {
+  background-color: #ff7a3d;
+  padding: 30px;
+
+}
+.closerlook {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.card {
+  background-color: #f9f5ed;
+
+}
+.card-body {
+  padding: 20px;
+}
+.card-title {
+  font-family:'Roboto', sans-serif;
+  font-weight: 600;
+  color: #ff7a3d;
+}
+
+
+/*==== Begin subscribe ====*/
+#subscription {
+  background-color: #fca76c;
+  color: black;
+  padding: 60px;
+}
+
+/*==== End subscribe ====*/
