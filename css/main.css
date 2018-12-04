@@ -10,3 +10,30 @@ background-color: white;
   background: #ff7a3d; /* Anything you want */
 }
 /*==== End navbar ====*/
+
+/*==== Begin carousel ====*/
+.carousel-caption {
+    padding: 60px;
+    margin-bottom: 130px;
+}
+
+.carousel-caption h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.btn-lg {
+   background-color: white;
+   color: #000;
+   padding: 15px 30px;
+   border-radius: 0;
+   border-color: white;
+   border-width: 3px;
+ }
+ .btn-lg:hover {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: #fff;
+   border-color: white;
+ }
+ /*==== End carousel ====*/
