@@ -37,3 +37,21 @@ background-color: white;
    border-color: white;
  }
  /*==== End carousel ====*/
+ /*==== Begin stat counter ====*/
+.stats {
+  background-image: linear-gradient(to right, rgb(238, 170, 123), rgb(255, 122, 61));
+  color: #fff;
+  padding: 60px;
+  /*margin-top: 80px;*/
+}
+
+
+p.counter {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+}
+/*==== End stat counter ====*/
