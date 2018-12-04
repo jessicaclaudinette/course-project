@@ -1,0 +1,12 @@
+/*==== Begin navbar ====*/
+.navbar {
+background-color: white;
+  letter-spacing: 10px;
+  padding: 20px;
+}
+.navbar-default .navbar-nav>.active> a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover {
+  background: #ff7a3d; /* Anything you want */
+}
+/*==== End navbar ====*/
