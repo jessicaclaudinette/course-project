@@ -1,0 +1,24 @@
+/*==== Begin navbar ====*/
+.navbar {
+background-color: #fff;
+  letter-spacing: 10px;
+  padding: 20px;
+}
+.navbar-default .navbar-nav>.active> a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover {
+  background: #ff7a3d;
+}
+/*==== End navbar ====*/
+
+/*==== Begin jumbotron ====*/
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  margin-top: 130px;
+  font-size: 40px;
+}
+.container span {
+  color: #fca76c;
+}
+/*==== End jumbotron ====*/
