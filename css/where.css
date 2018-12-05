@@ -1,6 +1,6 @@
 /*==== Begin navbar ====*/
 .navbar {
-background-color: #fff;
+  background-color: #fff;
   letter-spacing: 10px;
   padding: 20px;
 }
@@ -22,11 +22,16 @@ background-color: #fff;
   color: #fca76c;
 }
 /*==== End jumbotron ====*/
+
+/*==== Begin hr ====*/
 hr {
   max-width: 1060px;
   border-width: 5px;
   border-color: #b4dfe5;
 }
+/*==== End hr ====*/
+
+/*==== Begin map and closer look row ====*/
 .row {
   padding: 60px;
   margin-left: 40px;
@@ -41,6 +46,9 @@ hr {
   font-weight: 600;
   color: white;
 }
+/*==== End map and closer look row ====*/
+
+/*==== Begin country cards ====*/
 .card {
   background-color: #f9f5ed;
 
@@ -58,7 +66,7 @@ hr {
   width: 100%;
   display: block;
 }
-
+/*==== End country cards ====*/
 
 /*==== Begin subscribe ====*/
 #subscription {

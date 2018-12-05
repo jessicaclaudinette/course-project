@@ -1,3 +1,5 @@
+// jvectormap
+
 $(function(){
 
   $('#world-map').vectorMap({
