@@ -53,6 +53,11 @@ hr {
   font-weight: 600;
   color: #ff7a3d;
 }
+.card-img-top {
+  height: 220px;
+  width: 100%;
+  display: block;
+}
 
 
 /*==== Begin subscribe ====*/

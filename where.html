@@ -12,178 +12,133 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!--jquery-->
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-jvectormap-2.0.3.min.js"></script>
-  <script src="js/jquery-jvectormap-world-mill.js"></script>
 </head>
 <body>
 
   <!--The navbar-->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="index.html" class="navbar-brand">HOME</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-          <ul class="nav navbar-nav pull-right">
-            <li><a href="index.html">ABOUT</a></li>
-            <li class="active"><a href="where.html">WHERE</a></li>
-            <li><a href="resources.html">HOW TO HELP</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="navbar-brand">HOME</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="index.html">ABOUT</a></li>
+          <li class="active"><a href="where.html">WHERE</a></li>
+          <li><a href="resources.html">HOW TO HELP</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">Where are the <span>toughest places</span> for<br> girls to get an education?</h1>
+    </div>
+  </section>
+
+  <!--map-->
+  <div class="row">
+    <div class="col-md-8">
+      <div id="world-map" style="width: 1000px; height: 660px"></div>
+    </div>
+
+    <!--closer look-->
+    <div class="col-md-3" id="text">
+
+      <h3 class="closerlook">A closer look</h3>
+      <ul>
+        <li><h4>The worst areas for girl's education are those among the poorest in the world and most poverty-stricken.</h4></li>
+        <li><h4>The toughest countries are mainly concentrated in Africa, with nine of the worst ten located in sub-Saharan Africa.</h4></li>
+        <li><h4>Countries in conflict zones and war-torn areas tend to have worse girl's education.</h4></li>
+      </ul>
+      <br>
+      <br>
+      <p>Data courtesy of the ONE campaign (2017)</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-xs-12 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/southsudan.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title">#1 SOUTH SUDAN</h3>
+            <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="col-xs-12 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/southsudan.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title">#2 CENTRAL AFRICAN REPUBLIC</h3>
+            <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/southsudan.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title">#3 NIGER</h3>
+            <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-3">
+        <div class="card">
+          <img class="card-img-top" src="img/southsudan.png" alt="Card image cap">
+          <div class="card-body">
+            <h3 class="card-title">#4 AFGHANISTAN</h3>
+            <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- Jumbotron -->
-    <section class="jumbotron text-center">
-                <div class="container">
-                  <h1 class="jumbotron-heading">Where are the <span>toughest places</span> for<br> girls to get an education?</h1>
-                </div>
-              </section>
-
-              <!--map-->
-              <div class="row">
-                <div class="col-md-8">
-                <div id="world-map" style="width: 1000px; height: 660px"></div>
-              </div>
-
-              <!--closer look-->
-              <div class="col-md-3" id="text">
-
-                <h3 class="closerlook">A closer look</h3>
-              <ul>
-                <li><h4>The worst areas for girl's education are those among the poorest in the world and most poverty-stricken.</h4></li>
-                <li><h4>The toughest countries are mainly concentrated in Africa, with nine of the worst ten located in sub-Saharan Africa.</h4></li>
-                <li><h4>Countries in conflict zones and war-torn areas tend to have worse girl's education.</h4></li>
-                </ul>
-                <br>
-                <br>
-                <p>Data courtesy of the ONE campaign (2017)</p>
-              </div>
-              </div>
-
-              <hr>
-
-              <div class="container-fluid">
-                <div class="row text-center">
-                  <div class="col-xs-12 col-md-3">
-                  <div class="card">
-              <img class="card-img-top" src="img/southsudan.png" alt="Card image cap" style="height:220px; width:100%; display:block;">
-              <div class="card-body">
-              <h3 class="card-title">#1 SOUTH SUDAN</h3>
-              <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
-              </div>
-              </div>
-              </div>
-              <div class="col-xs-12 col-md-3">
-              <div class="card">
-              <img class="card-img-top" src="img/southsudan.png" alt="Card image cap" style="height:220px; width:100%; display:block;">
-              <div class="card-body">
-              <h3 class="card-title">#2 CENTRAL AFRICAN REPUBLIC</h3>
-              <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
-              </div>
-              </div>
-              </div>
-              <div class="col-xs-12 col-md-3">
-              <div class="card">
-              <img class="card-img-top" src="img/southsudan.png" alt="Card image cap" style="height:220px; width:100%; display:block;">
-              <div class="card-body">
-              <h3 class="card-title">#3 NIGER</h3>
-              <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
-              </div>
-              </div>
-              </div>
-              <div class="col-xs-12 col-md-3">
-              <div class="card">
-              <img class="card-img-top" src="img/southsudan.png" alt="Card image cap" style="height:220px; width:100%; display:block;">
-              <div class="card-body">
-              <h3 class="card-title">#4 AFGHANISTAN</h3>
-              <h4 class="card-text">Girls in South Sudan are least likely to go to school. A young girl in South Sudan is 3 times more likely to die in pregnancy or childbirth than to complete her primary education.</h4>
-              </div>
-              </div>
-              </div>
-              </div>
-              </div>
-
-              <hr>
+  <hr>
 
 
 
-              <!-- FOOTER -->
-              <footer>
-                <div id="subscription">
-                  <div class="container text-center">
-                    <h1>Subscribe to receive the latest updates.</h1>
-                    <br>
-                    <h4><em>Keep in touch by signing up to receive news updates via email.</em></h4>
-                    <br>
-                    <form>
-                      <input type="email" name="email" placeholder="Your email">  <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
-                        SIGN UP
-                      </button>
-                    </form>
+  <!-- FOOTER -->
+  <footer>
+    <div id="subscription">
+      <div class="container text-center">
+        <h1>Subscribe to receive the latest updates.</h1>
+        <br>
+        <h4><em>Keep in touch by signing up to receive news updates via email.</em></h4>
+        <br>
+        <form>
+          <input type="email" name="email" placeholder="Your email">  <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+            SIGN UP
+          </button>
+        </form>
 
-                  </div>
-                  <p class="pull-right"><a href="#"><i class="fas fa-chevron-circle-up" style="font-size:50px; color:white;"></i></a></p>
-                  <br>
-                </div>
+      </div>
+      <p class="pull-right"><a href="#"><i class="fas fa-chevron-circle-up" style="font-size:50px; color:white;"></i></a></p>
+      <br>
+    </div>
 
-              </footer>
-
-                <script>
-                  $(function(){
-
-                    $('#world-map').vectorMap({
-                      map: 'world_mill',
-                      scaleColors: ['#C8EEFF', '#0071A4'],
-                      normalizeFunction: 'polynomial',
-                      hoverOpacity: 0.7,
-                      hoverColor: false,
-                      regionStyle: {
-                        initial: {
-                          fill: '#fca76c'
-                        },
-                        hover: {
-                          fill: '#b4dfe5'
-                        }
-                      },
-                      markerStyle: {
-                        initial: {
-                          fill: '#303c6c',
-                          stroke: '#fff',
-                          "stroke-width": 3,
-                          r: 10
-                        },
-                        hover: {
-                          fill: '#fff',
-                          stroke: '#303c6c',
-                          r: 10
-                        }
-                      },
-                      backgroundColor: '#f9f5ed',
-                      markers: [
-                        {latLng: [6.88, 31.31], name: 'South Sudan - Three quarters of girls do not receive even a primary education'},
-                        {latLng: [6.61, 20.95], name: 'Central African Republic - Nearly twice as many girls out of school as boys, one teacher per 80 students'},
-                        {latLng: [17.61, 8.08], name: 'Niger - Only 17% of girls aged 15 to 24 are literate'},
-                        {latLng: [33.94, 67.71], name: 'Afghanistan - Large gender gap, significantly more boys in school than girls'},
-                        {latLng: [15.45, 18.73], name: 'Chad - Very wide gender gap, women and girls face significantly wider range of barriers'},
-                        {latLng: [17.57, -2], name: 'Mali - Only 38% of girls complete primary school'},
-                        {latLng: [9.94, -9.6], name: 'Guinea - On average women aged 25 and above have attended school for less than 1 year'},
-                        {latLng: [12.23, -1.5], name: 'Burkina Faso - Only 1% of girls complete secondary school'},
-                        {latLng: [6.43, -9.43], name: 'Liberia - Almost 2/3 primary-age pupils not in school'},
-                        {latLng: [9.14, 40.48], name: 'Ethiopia - 2 in 5 girls married before they reach 18, nearly 1 in 5 before age 15'}
-                      ]
-                    });
-                  });
+  </footer>
 
 
-                </script>
+  <!--jvectormap plugin and map custom js-->
+  <script src="js/where.js"></script>
+  <script src="js/jquery-jvectormap-2.0.3.min.js"></script>
+  <script src="js/jquery-jvectormap-world-mill.js"></script>
 </body>
 </html>
