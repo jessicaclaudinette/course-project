@@ -44,7 +44,10 @@ background-color: white;
   color: #fff;
   padding: 60px;
 }
-
+i {
+  font-size: 48px;
+  color: white;
+}
 
 p.counter {
   font-size: 90px;
