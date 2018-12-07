@@ -12,15 +12,17 @@
 /*==== End navbar ====*/
 
 /*==== Begin jumbotron ====*/
+.jumbotron {
+  background-color: #ff7a3d;
+  color: white;
+}
 .container h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   margin-top: 130px;
   font-size: 40px;
 }
-.container span {
-  color: #fca76c;
-}
+
 /*==== End jumbotron ====*/
 
 /*==== Begin hr ====*/
@@ -32,7 +34,7 @@ hr {
 /*==== End hr ====*/
 
 /*==== Begin map and closer look row ====*/
-.row {
+#maprow {
   padding: 60px;
   margin-left: 40px;
 }
@@ -74,7 +76,13 @@ hr {
   color: black;
   padding: 60px;
 }
-
+.btn-sm {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border-color: white;
+  border-width: 2px;
+}
 /*==== End subscribe ====*/
 /*==== Begin Social Buttons ====*/
 
@@ -87,13 +95,13 @@ hr {
   padding: 4.8rem;
   text-align: center;
 }
+.soc i {
+    color: #ff7a3d;
+}
 .soc li {
   display: inline-block;
   margin: 12px;
   margin: 1.2rem;
-}
-.soc a, .soc svg {
-  display: block;
 }
 .soc a {
   position: relative;
@@ -101,65 +109,17 @@ hr {
   height: 9.6rem;
   width: 96px;
   width: 9.6rem;
+  display: block;
 }
-.soc svg {
-  height: 100%;
-  width: 100%;
-}
-.soc em {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-top: -0.75em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+.soc li:hover{
   border-radius: 100%;
-  color: #0e1a25;
-  fill: #0e1a25;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  transform:scale(1.5);
 }
-
-.icon-10 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
+.soc i:hover {
+  color: black;
 }
-.icon-10:hover {
-  background: #ff7a3d;
+i {
+  font-size: 48px;
+  color: white;
 }
-
-.icon-15 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-15:hover {
-  background: #ff7a3d;
-}
-.icon-17 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-17:hover {
-  background: #ff7a3d;
-}
-
-.icon-26 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-26:hover {
-  background: #ff7a3d;
-}
-
-
 /*==== End Social buttons ====*/
