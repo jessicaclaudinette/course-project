@@ -13,30 +13,35 @@
 
 /*==== Begin carousel ====*/
 .carousel-caption {
-  padding: 60px;
-  margin-bottom: 130px;
+    padding: 0px;
+    margin-bottom: 100px;
+    text-align: left;
 }
 
 .carousel-caption h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 800;
-  font-size: 50px;
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Source Sans Pro', sans-serif;
+
+  font-weight: 300;
+  font-size: 55px;
+  text-align: left;
 }
 
 .btn-lg {
-  background-color: white;
-  color: #000;
-  padding: 15px 30px;
-  border-radius: 0;
-  border-color: white;
-  border-width: 3px;
-}
-.btn-lg:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  border-color: white;
-}
-/*==== End carousel ====*/
+   background-color: transparent;
+   color: #fff;
+   padding: 15px 30px;
+   border-radius: 0;
+   border-color: white;
+   border-width: 3px;
+ }
+ .btn-lg:hover {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: #fff;
+   border-color: white;
+ }
+ /*==== End carousel ====*/
 
 /*==== Begin stat counter ====*/
 .stats {
@@ -172,40 +177,13 @@ p {
   color: black;
   padding: 60px;
 }
-
-/*==== End subscribe ====*/
-
-/*==== Begin hr divider ====*/
-hr {
-  max-width: 1060px;
-  border-width: 5px;
-  border-color: #b4dfe5;
+.btn-sm {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border-color: white;
+  border-width: 2px;
 }
-/*==== End hr divider ====*/
-/*==== Begin subscribe ====*/
-#subscription {
-  background-color: #fca76c;
-  color: black;
-  padding: 60px;
-}
-
-/*==== End subscribe ====*/
-
-/*==== Begin hr divider ====*/
-hr {
-  max-width: 1060px;
-  border-width: 5px;
-  border-color: #b4dfe5;
-}
-/*==== End hr divider ====*/
-
-/*==== Begin subscribe ====*/
-#subscription {
-  background-color: #fca76c;
-  color: black;
-  padding: 60px;
-}
-
 /*==== End subscribe ====*/
 
 /*==== Begin hr divider ====*/
@@ -227,79 +205,30 @@ hr {
   padding: 4.8rem;
   text-align: center;
 }
+.soc i {
+  color: #ff7a3d;
+}
 .soc li {
   display: inline-block;
   margin: 12px;
   margin: 1.2rem;
 }
-.soc a, .soc svg {
-  display: block;
-}
+
 .soc a {
   position: relative;
   height: 96px;
   height: 9.6rem;
   width: 96px;
   width: 9.6rem;
-}
-.soc svg {
-  height: 100%;
-  width: 100%;
-}
-.soc em {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-top: -0.75em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  display: block;
 }
 
-.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+.soc li:hover{
   border-radius: 100%;
-  color: #0e1a25;
-  fill: #0e1a25;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  transform:scale(1.5);
 }
-
-.icon-10 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
+.soc i:hover {
+  color: black;
 }
-.icon-10:hover {
-  background: #ff7a3d;
-}
-
-.icon-15 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-15:hover {
-  background: #ff7a3d;
-}
-.icon-17 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-17:hover {
-  background: #ff7a3d;
-}
-
-.icon-26 {
-  color: #ff7a3d;
-  fill: #ff7a3d;
-}
-.icon-26:hover {
-  background: #ff7a3d;
-}
-
 
 /*==== End Social buttons ====*/
