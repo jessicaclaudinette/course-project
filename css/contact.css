@@ -1,0 +1,121 @@
+/*==== Begin navbar ====*/
+.navbar {
+  background-color: white;
+  letter-spacing: 10px;
+  padding: 10px;
+}
+.navbar-default .navbar-nav>.active> a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover {
+  background: #ff7a3d; /* Anything you want */
+}
+/*==== End navbar ====*/
+
+/*==== Begin jumbotron ====*/
+.jumbotron {
+  background-color: #ff7a3d;
+  color: white;
+}
+.container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  margin-top: 130px;
+  font-size: 40px;
+}
+
+/*==== End jumbotron ====*/
+
+/*==== Start Contact ====*/
+.contact-info .fa {
+  padding-right: 5px;
+}
+
+#contact .form-control {
+  border: none;
+  border-bottom: 2px solid #b4dfe5;
+  border-radius: 0px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#contact .form-control:focus {
+  border-bottom-color: #999999;
+}
+
+#contact input {
+  height: 55px;
+}
+
+#contact button#submit {
+  background: #ff7a3d;
+  border: none;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 50px;
+  margin-top: 24px;
+}
+
+#contact button#submit:hover {
+  background: #7682cc;
+  color: #ffffff;
+}
+/*==== End Contact ====*/
+
+/*==== Begin subscribe ====*/
+#subscription {
+  background-color: #fca76c;
+  color: black;
+  padding: 60px;
+}
+.btn-sm {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border-color: white;
+  border-width: 2px;
+}
+/*==== End subscribe ====*/
+
+/*==== Begin Social Buttons ====*/
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+  text-align: center;
+}
+.soc i {
+    color: #ff7a3d;
+}
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem;
+}
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem;
+  display: block;
+}
+.soc li:hover{
+  border-radius: 100%;
+  transform:scale(1.5);
+}
+.soc i:hover {
+  color: black;
+}
+i {
+  font-size: 48px;
+  color: white;
+}
+/*==== End Social buttons ====*/
