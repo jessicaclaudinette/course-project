@@ -177,6 +177,9 @@ p {
   color: black;
   padding: 60px;
 }
+#subscription input {
+  height: 33px;
+}
 .btn-sm {
   background-color: transparent;
   color: #fff;
